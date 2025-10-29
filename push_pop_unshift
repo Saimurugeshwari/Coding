@@ -1,0 +1,31 @@
+// where are the push, pop, unshift, slice, shift methods used in javascript?
+
+//Define array:
+const arr = ['Apple', 'Banana', 'Cherry', 'Date'];
+
+//Access the element using index:
+console.log(arr[0]); // output 'Apple'
+console.log(arr[2]); //output 'cherry'
+
+// push method: add element at the end of the array
+
+arr.push('Watermelon');
+console.log(arr); // output will be ['Apple', 'Banana', 'Cherry', 'Date', 'watermelon']
+
+//pop methode: remove the last element from the array
+arr.pop();
+console.log(arr);
+
+//unshift methond: add element at the beginning of the array
+
+arr.unshift('Mango');
+console.log(arr);
+
+//shift method: remove the first element from the array
+arr.shift();
+console.log(arr);
+
+
+//sliced method: it will return the part of the array based on the index we provide 
+const newarr = arr.slice(1, 3);
+console.log(newarr);

@@ -1,0 +1,18 @@
+{
+  "name": "javascript-interview",
+  "version": "1.0.0",
+  "main": "async.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}
